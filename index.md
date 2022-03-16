@@ -87,6 +87,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <h2 id="general">General Information</h2>
 
 {% comment %}
+
 INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
@@ -171,6 +172,7 @@ This block displays the date and links to Google Calendar.
 {% endif %}
 
 {% comment %}
+
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
@@ -188,6 +190,8 @@ Modify the block below if there are any special requirements.
 </p>
 
 {% comment %}
+
+<!--
 ACCESSIBILITY
 
 Modify the block below if there are any barriers to accessibility or
@@ -219,6 +223,9 @@ special instructions.
 {% endif %}
 
 {% comment %}
+
+-->
+
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
@@ -243,11 +250,13 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+<!--
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+-->
 
 {% comment %}
 WHO CAN ATTEND?
@@ -256,6 +265,7 @@ If you would like to specify who can attend the workshop,
 you can use the section below.
 
 Move the 'endcomment' tag above the beginning of the following
+{% endcomment %}
 <p> tag to make this section visible.
 
 Edit the text to match who can attend the workshop. For instance:
@@ -266,9 +276,8 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to UC San Diego students, staff, and researchers.
 </p>
-{% endcomment %}
 
 <hr/>
 
