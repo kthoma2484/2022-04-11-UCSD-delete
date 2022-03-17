@@ -189,6 +189,7 @@ Modify the block below if there are any special requirements.
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
+<!--
 {% comment %}
 
 ACCESSIBILITY
@@ -220,7 +221,7 @@ special instructions.
   anything we can do to make this workshop more accessible to you.
 </p>
 {% endif %}
-
+-->
 
 {% comment %}
 
